@@ -42,7 +42,7 @@ header form {
 }
 
 header .search-bar {
-	width: 80%;
+	width: 90%;
 	height: 40px;
 	line-height: 40px;
 	background-color: #fff;
@@ -74,4 +74,34 @@ header .categories li a {
 
 header .categories .active {
 	color: #000;
+}
+
+/* Muuri */
+.grid {
+	position: relative;
+	width: 100%;
+	opacity: 0;
+	transition: opacity 0.5s linear 0.5s;
+}
+
+.grid.uploaded-images {
+	opacity: 1;
+}
+
+.grid .item {
+	position: absolute;
+	display: block;
+	padding: 0;
+	margin: 10px;
+	width: calc(33.333333333% - 20px);
+}
+
+.grid .item .item-content {
+	position: relative;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+.grid .item img {
+	width: 100%;
 }
