@@ -105,3 +105,51 @@ header .categories .active {
 .grid .item img {
 	width: 100%;
 }
+
+/* Overlay */
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.9);
+	width: 100%;
+	height: 100vh;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.overlay.active {
+	display: flex;
+}
+
+.overlay img {
+	max-width: 100%;
+}
+
+.overlay .desc {
+	display: block;
+	background-color: #fff;
+	padding: 20px;
+	margin-top: 5px;
+	border-radius: 10px;
+	max-width: 40%;
+}
+
+.image-container {
+	position: relative;
+}
+
+.overlay #close-popup {
+	background: none;
+	font-size: 20px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	right: -15px;
+	top: -15px;
+}
