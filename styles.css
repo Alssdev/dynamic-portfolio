@@ -222,3 +222,14 @@ footer .attribution a {
 footer .attribution a:hover {
 	text-decoration: underline;
 }
+
+/* mediaqueries */
+@media screen and (max-width: 700px) {
+	.grid .item {
+		width: calc(50% - 20px);
+	}
+
+	header .search-bar {
+		width: 100%;
+	}
+}
