@@ -1,6 +1,8 @@
 # dynamic-portfolio
 This project consists of a portfolio to expose the skills mainly of photography and drawing using basic JS, HTML and CSS.
 
+![capture](https://user-images.githubusercontent.com/49174467/90714024-f21f5200-e263-11ea-9518-6c22ecc26958.png)
+
 ## Starting 🚀
 You only need to download this project to start working with it or implement it in your own project
 
